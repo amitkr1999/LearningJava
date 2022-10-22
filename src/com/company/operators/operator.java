@@ -1,6 +1,6 @@
 package com.company.operators;
 
-public class operators {
+public class operator {
     public static void main(String[] args) {
 
         String carModel = "Dodge Challenger SRT 392";
