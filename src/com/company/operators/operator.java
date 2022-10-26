@@ -29,6 +29,9 @@ public class operator {
         System.out.println("Negative price with minus sign: €" + priceNegativeWithMinusSign);
         int priceOneEuroIncrease = ++price;
         System.out.println("Price after 1 euro price increase: €" + priceOneEuroIncrease);
+        priceOneEuroIncrease = price++;
+        System.out.println(price--);
+
         int priceOneEuroDecrease = --price;
         System.out.println("Price after 1 euro price decrease: €" + priceOneEuroDecrease);
         System.out.println("This car is damaged: " + !isDamaged);
