@@ -30,6 +30,7 @@ public class operator {
         int priceOneEuroIncrease = ++price;
         System.out.println("Price after 1 euro price increase: €" + priceOneEuroIncrease);
         priceOneEuroIncrease = price++;
+        System.out.println(priceOneEuroIncrease);
         System.out.println(price--);
 
         int priceOneEuroDecrease = --price;
