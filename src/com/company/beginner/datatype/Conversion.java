@@ -1,4 +1,4 @@
-package com.company.datatype;
+package com.company.beginner.datatype;
 
 public class Conversion {
     public static void main(String[] args) {

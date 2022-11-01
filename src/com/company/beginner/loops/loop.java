@@ -1,4 +1,4 @@
-package com.company.loops;
+package com.company.beginner.loops;
 
 public class loop {
         public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.company.datatype;
+package com.company.beginner.datatype;
 
 public class primitive {
     public static void main(String[] args) {

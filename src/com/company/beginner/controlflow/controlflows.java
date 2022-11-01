@@ -1,4 +1,4 @@
-package com.company.controlflow;
+package com.company.beginner.controlflow;
 
 public class controlflows {
     public static void main(String[] args) {

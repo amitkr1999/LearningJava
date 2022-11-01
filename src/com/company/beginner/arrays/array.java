@@ -1,4 +1,4 @@
-package com.company.arrays;
+package com.company.beginner.arrays;
 
 public class array {
     public static void main(String[] args) {

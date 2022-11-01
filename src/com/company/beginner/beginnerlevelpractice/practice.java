@@ -1,4 +1,4 @@
-package com.company.beginnerlevelpractice;
+package com.company.beginner.beginnerlevelpractice;
 
 public class practice {
 

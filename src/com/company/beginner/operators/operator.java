@@ -1,4 +1,4 @@
-package com.company.operators;
+package com.company.beginner.operators;
 
 public class operator {
     public static void main(String[] args) {
