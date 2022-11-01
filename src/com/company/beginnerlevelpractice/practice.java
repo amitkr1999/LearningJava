@@ -7,14 +7,14 @@ public static void main(String[] args) {
     String ActressName = "Julia Roberts ";
     int YearBorn =1987;
     int Age = 2022-YearBorn;
-    String[] MoviesTitle = {"Pretty Woman , Hook , Notting Hill , Wonder (I)"};
-    float[] MovieRatings = {7.7F, 7.6F, 6.9F,8.0F, };
+    String[] MoviesTitle = {"Pretty Woman, Hook, Notting Hill, Wonder (I)"};
+    float[] MovieRatings = {7.7F, 7.6F, 6.9F,8.0F};
     System.out.println( "Actress Name:-" + ActressName);
     System.out.println("Year Of Born:-" + YearBorn);
     System.out.println("Age:-" + Age);
 
     for (int i = 0; i < MoviesTitle.length; i++) {
-        System.out.println(MoviesTitle[i] + " - " + getRating(MovieRatings[i]));
+        System.out.println(MoviesTitle[i]  + " - " + getRating(MovieRatings[i]));
     }
 }
 
