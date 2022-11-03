@@ -4,14 +4,14 @@ import java.util.Scanner;
 
 public class add {
    int a, b;
-   void getdata() {
+  private void getdata() {
        Scanner sc = new Scanner(System.in);
        System.out.println("Enter first number");
        a = sc.nextInt();
        System.out.println("Enter second number");
        b = sc.nextInt();
    }
-   void putdata(){
+   private void putdata(){
        System.out.println("sum of two number is" + (a+b));
    }
     public static void main(String[] args) {
