@@ -12,7 +12,7 @@ public class add {
        b = sc.nextInt();
    }
    void putdata(){
-       System.out.println("sum of two number is " + (a+b));
+       System.out.println("sum of two number is" + (a+b));
    }
     public static void main(String[] args) {
        add aa = new add();
