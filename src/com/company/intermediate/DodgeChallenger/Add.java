@@ -1,21 +1,22 @@
-package com.company.intermediate.classesandobject;
+package com.company.intermediate.DodgeChallenger;
 
 import java.util.Scanner;
 
-public class add {
+ class Add {
    int a, b;
-  private void getdata() {
+  void getdata() {
        Scanner sc = new Scanner(System.in);
        System.out.println("Enter first number");
        a = sc.nextInt();
        System.out.println("Enter second number");
        b = sc.nextInt();
+       getdata();
    }
-   private void putdata(){
+    void putdata(){
        System.out.println("sum of two number is" + (a+b));
    }
     public static void main(String[] args) {
-       add aa = new add();
+       Add aa = new Add();
        aa.getdata();
        aa.putdata();
 
