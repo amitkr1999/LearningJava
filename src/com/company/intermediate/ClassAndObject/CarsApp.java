@@ -6,5 +6,9 @@ public class CarsApp {
         dodgeChallenger.getDescription();
         dodgeChallenger.startTheEngine();
 
+        System.out.println("--------------------------------------------------");
+        DodgeChallenger anotherdodgeChallenger = new DodgeChallenger();
+        anotherdodgeChallenger.getDescription();
+
     }
 }

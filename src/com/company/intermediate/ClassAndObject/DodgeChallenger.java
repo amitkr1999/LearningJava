@@ -26,8 +26,16 @@ public class DodgeChallenger {
     boolean isDamaged = true;
     char energyEfficiencyCategory = 'G';
 
+    String color;
+
     DodgeChallenger(){
         System.out.println("DodgeChallenger is Created");
+    }
+
+    DodgeChallenger(String color){
+        this.color = color;
+        System.out.println("A" + color + "DodgeChallenger is Created");
+
     }
 
 
