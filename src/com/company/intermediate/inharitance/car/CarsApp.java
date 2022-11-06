@@ -1,6 +1,6 @@
 package com.company.intermediate.inharitance.car;
 
-import com.company.intermediate.inharitance.SingleInheritance;
+import com.company.intermediate.SingleInheritance.SingleInheritance;
 
 public class CarsApp {
     public static void main(String[] args) {
