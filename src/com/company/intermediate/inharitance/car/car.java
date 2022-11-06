@@ -1,9 +1,10 @@
-package com.company.intermediate.DodgeChallenger;
+package com.company.intermediate.inharitance.car;
 
 import java.util.Random;
 
-class DodgeChallenger{
-    private byte numberOfSeats = 5;
+public class car {
+
+   private byte numberOfSeats = 5;
     private byte numberOfDoors = 3;
     private byte numberOfVehicleOwners = 1;
     private byte emissionSticker = 4;
@@ -20,7 +21,7 @@ class DodgeChallenger{
 
     private float fuelConsumptionCombined = 15.5F;
     private float fuelConsumptionUrban = 21.4F;
-    private float fuelConsumptionExtraUrban = 13.6F;
+    private  float fuelConsumptionExtraUrban = 13.6F;
 
     private double fuelConsumptionPreciseAverage = 153.2452345234525E-1;
 
@@ -28,9 +29,16 @@ class DodgeChallenger{
     private char energyEfficiencyCategory = 'G';
 
     private String color;
+    private String carName;
 
-    public DodgeChallenger(String color, byte numberOfVehicleOwners, short power, short horsePower, short cubicCapacity,
-                           int price, int mileage, boolean isDamaged){
+     car(){
+        System.out.println("DodgeChallenger is Created");
+    }
+
+    public car(String carName, String color, byte numberOfVehicleOwners, short power, short horsePower, short cubicCapacity, int price, int mileage, boolean isDamaged){
+
+
+         this.carName = carName;
         this.color = color;
         this.numberOfVehicleOwners = numberOfVehicleOwners;
         this.power = power;
@@ -39,16 +47,19 @@ class DodgeChallenger{
         this.price = price;
         this.mileage = mileage;
         this.isDamaged = isDamaged;
-        Random randomNumberGenerator = new Random();
-        this.registrationNumber = randomNumberGenerator.nextLong();
+        Random randomNumberGenerated= new Random();
+        this.registrationNumber = randomNumberGenerated.nextLong();
+        System.out.println("A" + color + "DodgeChallenger is Created");
+
     }
 
+
     public void startTheEngine(){
-        System.out.println("The engine is started.");
+        System.out.println("The Engine is started");
     }
 
     public void getDescription(){
-        System.out.println("A " + color + " Dodge Challenger is created.");
+        System.out.println("A " + color + " " + carName + " is created");
         System.out.println("Price: €" + price);
         System.out.println("Mileage: " + mileage + "km");
         System.out.println("The car is damaged: " + isDamaged);
@@ -64,7 +75,6 @@ class DodgeChallenger{
         System.out.println("Number of previous owners: " + numberOfVehicleOwners);
         System.out.println("Number of doors: " + numberOfDoors);
         System.out.println("Number of seats: " + numberOfSeats);
-    }
 
     }
-
+}
