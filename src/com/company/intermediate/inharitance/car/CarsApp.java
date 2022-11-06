@@ -12,8 +12,8 @@ public class CarsApp {
 //        ToyotaSupra blackToyotaSupra = new ToyotaSupra("black", (byte)1, (short)225, (short)717, (short)3500, 40000, 15000, false);
 //        blackToyotaSupra.getDescription();
 //        blackToyotaSupra.startTheEngine();
-        SingleInheritance p= new SingleInheritance();
-        p.input();
+        SingleInheritance singleInheritance= new SingleInheritance();
+        singleInheritance.input();
 //        SingleInheritance.output();
 //        p.output();
     }

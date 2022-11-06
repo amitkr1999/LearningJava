@@ -38,7 +38,7 @@ public class car {
     public car(String carName, String color, byte numberOfVehicleOwners, short power, short horsePower, short cubicCapacity, int price, int mileage, boolean isDamaged){
 
 
-         this.carName = carName;
+        this.carName = carName;
         this.color = color;
         this.numberOfVehicleOwners = numberOfVehicleOwners;
         this.power = power;

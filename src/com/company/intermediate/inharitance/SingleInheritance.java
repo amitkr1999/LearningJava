@@ -13,8 +13,8 @@ package com.company.intermediate.inharitance;
 
     }
         public static void main(String[] args) {
-            SingleInheritance p =new SingleInheritance();
-           p.input();
-            System.out.println(p);
+            SingleInheritance singleInheritance =new SingleInheritance();
+           singleInheritance.input();
+            System.out.println(singleInheritance);
         }
     }
