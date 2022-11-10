@@ -16,9 +16,9 @@ public class Area {
             int area = length * breadth;
             System.out.println("Area: " + area);
         }
-    }
 
-    class Main {
+
+
         public static void main(String[] args) {
 
             // create object of Area
