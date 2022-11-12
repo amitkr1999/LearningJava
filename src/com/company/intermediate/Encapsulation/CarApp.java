@@ -1,6 +1,11 @@
 package com.company.intermediate.Encapsulation;
 
 public class CarApp {
+/*  Defination
+    Wrapping up of under a single a (a class) and it prevents data from  being accessed by the code outside
+   (In encapsulation the variable is private and the method is public)*/
+
+
     public static void main(String[] args) {
         DodgeChallenger redDodgeChallenger = new DodgeChallenger("red", (byte)3, (short)450, (short)717, (short)7700, 40000, 15000, true);
         System.out.println(redDodgeChallenger.getCarName() + "'s price is $" + redDodgeChallenger.getPrice());

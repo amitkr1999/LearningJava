@@ -1,6 +1,7 @@
 package com.company.intermediate.Polymorphism;
 
 public class AthleteApp {
+    //Allows you to have many form with the same purpose(In polymorphism same person work as different )
 
     public static void main(String[] args) {
         BasketballPlayer kobe = new BasketballPlayer("Kobe Bryant", "Black Mamba", 1978, "Lakers", 83.7, 25.0, 1346);
