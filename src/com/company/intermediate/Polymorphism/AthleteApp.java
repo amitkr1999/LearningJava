@@ -1,6 +1,7 @@
 package com.company.intermediate.Polymorphism;
 
 public class AthleteApp {
+    //Defination
     //Allows you to have many form with the same purpose(In polymorphism same person work as different )
 
     public static void main(String[] args) {
