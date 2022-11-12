@@ -8,4 +8,7 @@ public class Main {
         Area rectangle = new Area(5, 6);
         rectangle.getArea();
     }
+
+    //Triangle
+
 }

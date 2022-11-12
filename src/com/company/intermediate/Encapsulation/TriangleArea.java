@@ -10,8 +10,5 @@ public class TriangleArea {
          System.out.println(area);
      }
 
-    public static void main(String[] args) {
-        TriangleArea area = new TriangleArea( );
-        area.setarea(5, 8);
-    }
+
 }
