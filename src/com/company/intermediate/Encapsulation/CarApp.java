@@ -1,7 +1,7 @@
 package com.company.intermediate.Encapsulation;
 
 public class CarApp {
-/*
+/*Defination
     Wrapping up of under a single a (a class) and it prevents data from  being accessed by the code outside
    (In encapsulation the variable is private and the method is public)*/
 
