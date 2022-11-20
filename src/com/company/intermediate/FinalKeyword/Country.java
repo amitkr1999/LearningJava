@@ -1,7 +1,8 @@
 package com.company.intermediate.FinalKeyword;
 
 public class Country {
-
+    /*Final is use for when we want a class method variable to always store same value
+      Final class can not be extended*/
     private final String NAME;
     private int population;
     private String capital;
