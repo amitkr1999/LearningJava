@@ -3,5 +3,6 @@ package com.company.intermediate.Polymorphism;
 public interface Swimming {
     //abstract method
     void freestyle();
+    //method overloading
     void freestyle(int distance);
 }
