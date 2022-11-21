@@ -19,7 +19,7 @@ public class Swimmer extends Athlete implements Swimming {
     @Override
     // Define Method getBio with return type Void
     public void getBio() {
-        //Super class constructor
+        //Super class method
         super.getBio();
         System.out.println("FINA points: " + finaPoints);
     }
