@@ -1,5 +1,5 @@
 package com.company.intermediate.Polymorphism;
-//it is just like a class collection of abstract method and implement in class
+//interface is just like a class in java it contains abstract methods. A class implements interface and inheriting the abstract methods of the interface.
 public interface Swimming {
     void freestyle();
     void freestyle(int distance);
