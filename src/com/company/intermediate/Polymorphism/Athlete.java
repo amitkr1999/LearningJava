@@ -24,7 +24,6 @@ public abstract class Athlete {
     }
     // Define Method getBio with return type Void
 
-     // why function name is get bio
     public void getBio() {
         System.out.println(name + " (" + nickname + ")");
         System.out.println("Born in " + yearOfBorn);
