@@ -1,13 +1,13 @@
 package com.company.Advance.Enum;
 
 public class Pizza {
-         private PizzaName PizzaName;
+         private String name;
          private PizzaSize PizzaSize;
          private double price;
 
 
-    public Pizza(PizzaName pizzaName, PizzaSize pizzaSize) {
-        this.PizzaName = PizzaName;
+    public Pizza(String name, PizzaSize pizzaSize) {
+        this.name = name;
         this.PizzaSize = pizzaSize;
         this.price = calculateprice();
     }
@@ -24,8 +24,8 @@ public class Pizza {
         }
     }
 
-    public PizzaName getName() {
-        return PizzaName;
+    public String getName() {
+        return name;
     }
 
     public PizzaSize getPizzaSize() {
