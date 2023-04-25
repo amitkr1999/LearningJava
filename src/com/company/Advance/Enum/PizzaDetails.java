@@ -1,12 +1,12 @@
 package com.company.Advance.Enum;
 
-enum PizzaSize {
+public enum PizzaDetails {
     SMALL, MEDIUM, LARGE
 
 }
-enum PizzaName{
-    MARGARETA , VEGGIE, PEPPERONI
-}
+//enum PizzaName{
+//    MARGARETA , VEGGIE, PEPPERONI
+//}
 //What is syntax of enum?
 // in a java class we can define  enum enum_name and in curly bracket all constant values.
 
