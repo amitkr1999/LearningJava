@@ -54,3 +54,7 @@ public class InnerClassesApp {
         System.out.println("Name : " +secondPizza.getName());
     }
 }
+//what is Inner Class
+//An inner class in Java is defined as a class that is declared inside another class.
+//Benifit of Inner class
+//inner classes can access outer class private members and at the same time we can hide inner class from outer world
