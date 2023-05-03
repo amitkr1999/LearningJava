@@ -47,3 +47,11 @@ public class ArrayFuncionApp {
             }
         }
     }
+// what is static array?
+// An array that is declared with the static keyword is known as static array.
+// What is Dynamic array?
+// The dynamic array is a variable size list data structure. It grows automatically when we try to insert an
+// element if there is no more space left for the new element. It allows us to add and remove elements.
+// It allocates memory at run time using the heap. It can change its size during run time.
+//Create one function with Static array and one function in dynamic array
+//    Static Array                                                          Dynamic Array
