@@ -1,0 +1,4 @@
+git add ( to add new file )
+git branch new_branch_name ( git branch command for creating new branch)
+git commit  comments (git commit command is for commiting all the changes)
+git push (git push command is for push the changes to remote branch)
