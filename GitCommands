@@ -2,3 +2,18 @@ git add ( to add new file )
 git branch new_branch_name ( git branch command for creating new branch)
 git commit  comments (git commit command is for commiting all the changes)
 git push (git push command is for push the changes to remote branch)
+
+
+New branch creation process
+1.checkout master/ develop branch.
+2.run git pull command(to get the latest code from remote(Github)).
+3.create new branch then name the branch as NameOfTheBranch and select with option checkout via intellij if we want to create via terminal then
+we have to run git checkout -b NameOfTheBranch.
+
+
+ Q1. What is the naming convention for branch?
+ name of the starts with fix or feature if we are fixing something in our new branch then we will use fix/NameOfTheBranch
+ if we are adding some feature in new branch then we will use feature/NameOfTheBranch
+
+ Q2. What is the merge process?
+
