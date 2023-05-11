@@ -12,8 +12,9 @@ we have to run git checkout -b NameOfTheBranch.
 
 
  Q1. What is the naming convention for branch?
- name of the starts with fix or feature if we are fixing something in our new branch then we will use fix/NameOfTheBranch
+ Name of the starts with fix or feature if we are fixing something in our new branch then we will use fix/NameOfTheBranch
  if we are adding some feature in new branch then we will use feature/NameOfTheBranch
 
  Q2. What is the merge process?
+  Commit the code then add the comment and then commit and push the code after then
 
