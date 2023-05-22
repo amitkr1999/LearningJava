@@ -21,5 +21,5 @@ we have to run git checkout -b NameOfTheBranch.
 
 
 Q3. What is Commit process?
-    Add code to commit to master then select the file and add useful comment and then click commit and and push the code the code
-    will commited
+    Add code to commit to master then select the file and add useful comment and then click commit and  push the code on remote
+
