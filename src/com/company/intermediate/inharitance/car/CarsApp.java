@@ -18,3 +18,10 @@ public class CarsApp {
 //        p.output();
     }
 }
+// Inheritance:- Allow you to define new class from an existing one and inherit its attributes and methods is called inheritance.
+//  for example :- the DodgeChallenger class inherit the all  attributes and methods of the car class
+//  Syntax :- class Subclass-name extends Superclass-name
+
+// Why use inheritance in java?
+//  For Method Overriding
+//  For Code Reusability.
