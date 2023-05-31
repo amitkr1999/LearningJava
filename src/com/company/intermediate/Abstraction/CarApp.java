@@ -23,6 +23,7 @@ class CarsApp {
         blackToyotaSupra.drive(200);
         System.out.println("After driving the car, it has " + blackToyotaSupra.getMileage() + "miles");
     }
-
-
+  // Abstraction:- only essential details are displayed to the user and hiding certain parts of the implementation called abstraction.
+    // for example:- In car.java class we use abstract class to hide the detail of the car like numberofseat , numberofdoors, emissionSticker etc.
+    // Syntax:- abstract class class_name
 }
