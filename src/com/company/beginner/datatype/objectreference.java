@@ -32,4 +32,6 @@ public class objectreference {
 
 
         }
+        // Primitive and Non-primitive data type
+         //A primitive type has always a value, while non-primitive types can be null.
 }
