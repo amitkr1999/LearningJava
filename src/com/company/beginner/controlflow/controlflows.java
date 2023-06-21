@@ -1,6 +1,6 @@
 package com.company.beginner.controlflow;
 
-public class controlflows {
+public class  controlflows {
     public static void main(String[] args) {
         boolean isDamaged = false;
         String carColor = "purple";
