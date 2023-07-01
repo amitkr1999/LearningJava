@@ -62,3 +62,10 @@ public class Product {
                 '}';
     }
 }
+// what is collection framework?
+// A framework is a set of classes and interfaces which provide a ready-made architecture. In order to implement a new feature or a class.
+//  Java Collection framework provides many interfaces (Set, List, Queue, Deque) and classes (ArrayList, Vector, LinkedList, PriorityQueue, HashSet, LinkedHashSet, TreeSet).t
+
+// Why collection framework is use?
+// when we don't know the size of element in advance then we use collection framework. In case of shopping cart the product stored in a collection and we, the developer don't know
+// how any product the user will add.
