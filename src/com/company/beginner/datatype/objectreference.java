@@ -34,4 +34,6 @@ public class objectreference {
         }
         // Primitive and Non-primitive data type
          //A primitive type has always a value, while non-primitive types can be null.
-}
+}        // Primitive:- int, float, double etc. size not fixed.
+        // non-primitive:- class, Array, enum. depend upon types of data structure.
+
