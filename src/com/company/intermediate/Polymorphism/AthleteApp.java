@@ -1,9 +1,6 @@
 package com.company.intermediate.Polymorphism;
 
 public class AthleteApp {
-    //Defination
-    //Allows you to have many form with the same purpose(In polymorphism same person work as different)
-
     public static void main(String[] args) {
         BasketballPlayer kobe = new BasketballPlayer("Kobe Bryant", "Black Mamba", 1978, "Lakers", 83.7, 25.0, 1346);
         kobe.setFreeThrowPercentage(83.8);
@@ -52,3 +49,6 @@ public class AthleteApp {
         System.out.println(katinka.getBodyType());
     }
 }
+// polymorphism:- Allows you to have many form with the same purpose is called polymorphism.
+// for example :-  Basketball player is also an athlete. basketball player inherit  all properties of athlete
+
