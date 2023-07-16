@@ -9,7 +9,7 @@ class DodgeChallenger extends Car implements ElectricMode {
                            int price, int mileage, boolean isDamaged) {
         super("Dodge Challenger", color, numberOfVehicleOwners, power, horsePower, cubicCapacity, price, mileage, isDamaged);
     }
-
+//When we have to redefine a method which is already is  parent class it is called method overriding
     @Override
     public void startTheEngine() {
         System.out.println("A Dodge Challenger engine is started.");
