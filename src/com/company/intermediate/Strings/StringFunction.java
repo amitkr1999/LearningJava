@@ -38,3 +38,8 @@ public class StringFunction {
         System.out.println("The replaced text: " + inputText.replace("N", "D"));
     }
 }
+// Different String function?
+// 1. Uppercase
+// 2. Lowercase
+// 3. Equal
+// 4. Replace
