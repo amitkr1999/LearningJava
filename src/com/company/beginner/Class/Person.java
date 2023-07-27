@@ -17,3 +17,7 @@ class Student extends Person {
         System.out.println("Graduation Year: " + myObj.graduationYear);
     }
 }
+// Different Access Modifier in java?
+// 1. Public :- Access where code is located
+// 2. Private:- Access in its own class
+// 3. Protected:- Access in its own package
